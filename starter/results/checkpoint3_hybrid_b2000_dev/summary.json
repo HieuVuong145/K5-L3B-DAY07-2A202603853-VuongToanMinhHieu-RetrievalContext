@@ -1,0 +1,16 @@
+{
+  "method": "hybrid",
+  "split": "dev",
+  "total_cases": 20,
+  "answerable_cases": 17,
+  "provider_errors": 0,
+  "tool_use": "20/20 (100.0%)",
+  "hit1": "12/17 (70.6%)",
+  "hit3": "16/17 (94.1%)",
+  "context_evidence_rate": "16/17 (94.1%)",
+  "config": {
+    "max_searches": 3,
+    "top_k": 3,
+    "budget": 2000
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "hybrid",
+  "split": "test",
+  "total_cases": 10,
+  "answerable_cases": 7,
+  "provider_errors": 0,
+  "tool_use": "10/10 (100.0%)",
+  "hit1": "3/7 (42.9%)",
+  "hit3": "7/7 (100.0%)",
+  "context_evidence_rate": "6/7 (85.7%)",
+  "config": {
+    "max_searches": 3,
+    "top_k": 3,
+    "budget": 2000
+  }
+}

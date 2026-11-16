@@ -1,0 +1,527 @@
+[
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Chương trình đào tạo trình độ cử nhân đối với người tốt nghiệp THPT theo hình thức chính quy có thời gian chuẩn và khối lượng tối thiểu là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 6,
+        "evidence": "Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p6_c4",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 6,
+        "text": "6. Thời gian và khối lượng học tập chuẩn đối với các CTĐT theo hình thức chính quy không kể các học phần bổ sung kiến thức được quy định như sau: Chương trình Người học Thời gian Khối lượng tối thiểu Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ Kỹ sư Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Thạc sĩ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tiến sĩ Tốt nghiệp thạc sĩ 3 năm 106 tín chỉ Tốt nghiệp đại học 4 năm 151 tín chỉ\n\n7. Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học dài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng CTĐT.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 4
+        },
+        "score": 0.5371316136418276,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p6_c5",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 6,
+        "text": "hư sau: Chương trình Người học Thời gian Khối lượng tối thiểu Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ Kỹ sư Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Thạc sĩ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tiến sĩ Tốt nghiệp thạc sĩ 3 năm 106 tín chỉ Tốt nghiệp đại học 4 năm 151 tín chỉ\n\n7. Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học dài",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 5,
+          "char_start": 2250,
+          "char_end": 2750
+        },
+        "score": 0.4331464764775881,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p6_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 6,
+        "text": "2\n\nưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC. CTĐT tích hợp bao gồm hai bậc trình độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân ) và kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư trình độ bậc 7) hoặc thạc sĩ (thời gian đào tạo 1,5 năm, cấp bằng thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.4153957196658298,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[A_quy_che_dao_tao_dhbk_2025_p6_c5 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 6]\như sau: Chương trình Người học Thời gian Khối lượng tối thiểu Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ Kỹ sư Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Thạc sĩ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ Tiến sĩ Tốt nghiệp thạc sĩ 3 năm 106 tín chỉ Tốt nghiệp đại học 4 năm 151 tín chỉ\n\n7. Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học dài",
+    "context_ids": [
+      "A_quy_che_dao_tao_dhbk_2025_p6_c5"
+    ],
+    "context_chars": 676,
+    "elapsed_ms": 0.9049169602803886,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Thời gian chậm tiến độ đối với các chương trình cấp bằng cử nhân không được vượt quá bao nhiêu học kỳ chính?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 7,
+        "evidence": "thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân"
+      }
+    ],
+    "results": [
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p7_c2",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 7,
+        "text": "của ĐHBK Hà Nội.\n\n3. Căn cứ kế hoạch học tập chuẩn toàn khóa của CTĐT, người học tự xây dựng kế hoạch học tập theo từng học kỳ:\n\na) Người học được phép tốt nghiệp sớm hơn khi đã đáp ứng toàn bộ điều kiện tốt nghiệp của CTĐT hoặc tốt nghiệp chậm hơn so với thời gian theo kế hoạch học tập chuẩn, nhưng thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân, không quá 2 học kỳ chính đối với các chương trình cấp bằng kỹ sư và thạc sĩ.\n\nb) Đối với sinh viên",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 2,
+          "char_start": 900,
+          "char_end": 1400
+        },
+        "score": 0.5270262057065885,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p6_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 6,
+        "text": "2\n\nưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC. CTĐT tích hợp bao gồm hai bậc trình độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân ) và kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư trình độ bậc 7) hoặc thạc sĩ (thời gian đào tạo 1,5 năm, cấp bằng thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.45556768712155155,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p6_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 6,
+        "text": "2\n\nưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC. CTĐT tích hợp bao gồm hai bậc trình độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân ) và kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư trình độ bậc 7) hoặc thạc sĩ (thời gian đào tạo 1,5 năm, cấp bằng thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền tảng liên quan chặt chẽ đến các định hướng chuyên sâu của chương trình kỹ sư, thạc sĩ.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương I: Những quy định chung",
+          "chunk_index": 0
+        },
+        "score": 0.4331897981620115,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[A_quy_che_dao_tao_dhbk_2025_p7_c2 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 7]\ncủa ĐHBK Hà Nội.\n\n3. Căn cứ kế hoạch học tập chuẩn toàn khóa của CTĐT, người học tự xây dựng kế hoạch học tập theo từng học kỳ:\n\na) Người học được phép tốt nghiệp sớm hơn khi đã đáp ứng toàn bộ điều kiện tốt nghiệp của CTĐT hoặc tốt nghiệp chậm hơn so với thời gian theo kế hoạch học tập chuẩn, nhưng thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân, không quá 2 học kỳ chính đối với các chương trình cấp bằng kỹ sư và thạc sĩ.\n\nb) Đối với sinh viên",
+    "context_ids": [
+      "A_quy_che_dao_tao_dhbk_2025_p7_c2"
+    ],
+    "context_chars": 677,
+    "elapsed_ms": 0.6951249670237303,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Sinh viên đủ điều kiện tốt nghiệp đại học được cấp bằng tốt nghiệp trong thời hạn bao lâu kể từ thời điểm đáp ứng đầy đủ điều kiện?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 15,
+        "evidence": "cấp bằng tốt nghiệp trong thời hạn 03 tháng"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p15_c2",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 15,
+        "text": "c) Điểm trung bình tích lũy toàn khóa (tính theo các học phần đăng ký tốt nghiệp) đạt từ 2,0 trở lên.\n\nd) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập.\n\n4. Những sinh viên đủ điều kiện tốt nghiệp được Giám đốc ĐHBK Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành các nghĩa vụ liên quan.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương II: Quy định đào tạo trình độ đại học",
+          "chunk_index": 2
+        },
+        "score": 0.6128947330950915,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p21_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 21,
+        "text": "17\n\nd) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập.\n\n4. Học viên đăng ký tốt nghiệp, đạt đủ điều kiện tốt nghiệp được Giám đốc ĐHBK Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành các nghĩa vụ liên quan.\n\n5. Học viên không tốt nghiệp được quyền đề nghị cấp chứng nhận với các học phần đã tích lũy trong",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương III: Quy định đào tạo chương trình kỹ sư chuyên sâu",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.60988822843496,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p15_c4",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 15,
+        "text": "viên đủ điều kiện tốt nghiệp được Giám đốc ĐHBK Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành các nghĩa vụ liên quan.\n\n5. Sinh viên đã hết thời gian học tập tối đa theo quy định tại khoản 3 Điều 3 của Quy chế này nhưng chưa đủ điều kiện tốt nghiệp do chưa hoàn thành các học phần Giáo dục quốc phòng-an ninh hoặc Giáo dục thể chất, trong thời hạn tối đa 03 năm kể từ khi hết thờ",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương II: Quy định đào tạo trình độ đại học",
+          "chunk_index": 4,
+          "char_start": 1800,
+          "char_end": 2300
+        },
+        "score": 0.6027368275205672,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[B_quy_che_dao_tao_dhbk_2025_p15_c2 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 15]\nc) Điểm trung bình tích lũy toàn khóa (tính theo các học phần đăng ký tốt nghiệp) đạt từ 2,0 trở lên.\n\nd) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập.\n\n4. Những sinh viên đủ điều kiện tốt nghiệp được Giám đốc ĐHBK Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành các nghĩa vụ liên quan.",
+    "context_ids": [
+      "B_quy_che_dao_tao_dhbk_2025_p15_c2"
+    ],
+    "context_chars": 672,
+    "elapsed_ms": 0.6782499840483069,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "question": "Học viên đào tạo thạc sĩ chính quy có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính và một năm học?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 23,
+        "evidence": "đăng ký tối đa 24 TC trong một học kỳ chính nhưng không vượt quá 45 TC trong một năm học"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p23_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 23,
+        "text": "19\n\nCHƯƠNG IV ĐÀO TẠO THẠC SĨ\n\nĐiều 27. Đăng ký học tập chương trình thạc sĩ\n\n1. Đăng ký học tập: Học viên thực hiện quy trình đăng ký học từ tài khoản học tập cá nhân theo kế hoạch học tập chuẩn hoặc theo kế hoạch cá nhân. Học viên được đào tạo theo hình thức chính quy có thể đăng ký tối đa 24 TC trong một học kỳ chính nhưng không vượt quá 45 TC trong một năm học. Học viên được đào tạo theo hình thức vừa làm vừa học có thể đăng ký tối đa 20 TC trong một học kỳ nhưng không vượt quá 30 TC trong một năm học. Học kỳ cuối khóa không áp dụng ngưỡng tối đa nhưng vẫn phải đảm bảo quy định số TC tối đa trong năm học.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0
+        },
+        "score": 0.5653152835658074,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p23_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 23,
+        "text": "19\n\nCHƯƠNG IV ĐÀO TẠO THẠC SĨ\n\nĐiều 27. Đăng ký học tập chương trình thạc sĩ\n\n1. Đăng ký học tập: Học viên thực hiện quy trình đăng ký học từ tài khoản học tập cá nhân theo kế hoạch học tập chuẩn hoặc theo kế hoạch cá nhân. Học viên được đào tạo theo hình thức chính quy có thể đăng ký tối đa 24 TC trong một học kỳ chính nhưng không vượt quá 45 TC trong một năm học. Học viên được đào tạo theo hình thức vừa làm vừa học có thể đăng ký tối đa 20 TC trong một học kỳ nhưng không vượt quá 30 TC trong m",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.5267599745763814,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p20_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 20,
+        "text": "16\n\nCHƯƠNG III ĐÀO TẠO KỸ SƯ\n\nĐiều 21. Đăng ký học tập chương trình kỹ sư\n\n1. Đăng ký học phần: học viên thực hiện quy trình đăng ký học tập theo kế hoạch học tập chuẩn hoặc theo kế hoạch cá nhân. Học viên có thể đăng ký tối thiểu 12 TC và tối đa 24 TC trong một học kỳ chính. Không áp dụng ngưỡng đăng ký tối thiểu với học kỳ cuối khóa.\n\n2. Quy trình đăng ký học tập thực hiện theo khoản 1 Điều 10 của Quy chế này.\n\n3. Trong quá trình học tập ở bậc đào tạo cử nhân, học viên được đăng ký học trước t",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương III: Quy định đào tạo chương trình kỹ sư chuyên sâu",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.416363143100103,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B_quy_che_dao_tao_dhbk_2025_p23_c0 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 23]\n19\n\nCHƯƠNG IV ĐÀO TẠO THẠC SĨ\n\nĐiều 27. Đăng ký học tập chương trình thạc sĩ\n\n1. Đăng ký học tập: Học viên thực hiện quy trình đăng ký học từ tài khoản học tập cá nhân theo kế hoạch học tập chuẩn hoặc theo kế hoạch cá nhân. Học viên được đào tạo theo hình thức chính quy có thể đăng ký tối đa 24 TC trong một học kỳ chính nhưng không vượt quá 45 TC trong một năm học. Học viên được đào tạo theo hình thức vừa làm vừa học có thể đăng ký tối đa 20 TC trong một học kỳ nhưng không vượt quá 30 TC trong một năm học. Học kỳ cuối khóa không áp dụng ngưỡng tối đa nhưng vẫn phải đảm bảo quy định số TC tối đa trong năm học.",
+    "context_ids": [
+      "B_quy_che_dao_tao_dhbk_2025_p23_c0"
+    ],
+    "context_chars": 795,
+    "elapsed_ms": 0.6790829938836396,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "question": "Học viên cao học thực hiện đăng ký đề tài luận văn thạc sĩ vào thời điểm nào của khóa học?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 24,
+        "evidence": "đăng ký đề tài luận văn trong học kỳ đầu của khóa học"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p24_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 24,
+        "text": "20\n\n3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt quá 30 TC.\n\nĐiều 29. Đăng ký đề tài luận văn thạc sĩ\n\n1. Học viên thực hiện đăng ký đề tài luận văn trong học kỳ đầu của khóa học theo hai cách sau:\n\na) Chọn lựa một đề tài và tên người hướng dẫn trong danh mục các đề tài do trường/khoa/viện đề xuất.\n\nb) Tự đề xuất tên đề tài luận văn, đề cương nghiên cứu chi tiết và người hướng dẫn (dự kiến).\n\n2. Căn cứ thông tin đăng ký đề tài của học viên, ĐHBK Hà Nội xem xét và ra quyết định giao đề tài và người hướng dẫn. Các trường hợp không được thông qua phải thực hiện đăng ký lại.\n\n3. Ngay sau khi nhận quyết định giao đề tài, học viên phải xây dựng kế hoạch thực hiện luận văn thạc sĩ và được người hướng dẫn đồng ý.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0
+        },
+        "score": 0.46321454654384486,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p24_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 24,
+        "text": "20\n\n3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt quá 30 TC.\n\nĐiều 29. Đăng ký đề tài luận văn thạc sĩ\n\n1. Học viên thực hiện đăng ký đề tài luận văn trong học kỳ đầu của khóa học theo hai cách sau:\n\na) Chọn lựa một đề tài và tên người hướng dẫn trong danh mục các đề tài do trường/khoa/viện đề xuất.\n\nb) Tự đề xuất tên đề tài luận văn, đề cương nghiên cứu chi tiết và người hướng dẫn (dự kiến).\n\n2. Căn cứ thông tin đăng ký đề tà",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.4241925205158395,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p25_c4",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 25,
+        "text": "định về thời gian học tập tối đa tại điểm a khoản 3 Điều 3 Quy chế này thì có thể đăng ký đề tài mới cho luận văn thạc sĩ để thực hiện. Không tổ chức bảo vệ luận văn lần thứ ba.\n\n3. Học viên tự chi trả kinh phí cho việc chỉnh sửa, bổ sung luận văn và tổ chức bảo vệ luận văn lần thứ hai; kinh phí thực hiện và bảo vệ luận văn theo đề tài mới.\n\nĐiều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp\n\n1. Học viên có đủ các điều kiện sau đây thì được xét công nhận tốt nghiệp:\n\na) Luận văn đạt y",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 4,
+          "char_start": 1800,
+          "char_end": 2300
+        },
+        "score": 0.3711639796450654,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[A_quy_che_dao_tao_dhbk_2025_p24_c0 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 24]\n20\n\n3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt quá 30 TC.\n\nĐiều 29. Đăng ký đề tài luận văn thạc sĩ\n\n1. Học viên thực hiện đăng ký đề tài luận văn trong học kỳ đầu của khóa học theo hai cách sau:\n\na) Chọn lựa một đề tài và tên người hướng dẫn trong danh mục các đề tài do trường/khoa/viện đề xuất.\n\nb) Tự đề xuất tên đề tài luận văn, đề cương nghiên cứu chi tiết và người hướng dẫn (dự kiến).\n\n2. Căn cứ thông tin đăng ký đề tà",
+    "context_ids": [
+      "A_quy_che_dao_tao_dhbk_2025_p24_c0"
+    ],
+    "context_chars": 679,
+    "elapsed_ms": 0.6206249818205833,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "Thời hạn học viên thạc sĩ phải nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu là bao nhiêu ngày kể từ ngày bảo vệ thành công?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 26,
+        "evidence": "thời hạn nộp luận văn là 20 ngày kể từ ngày bảo vệ thành công luận văn"
+      }
+    ],
+    "results": [
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p26_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 26,
+        "text": "22\n\nc) Đã nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu theo quy cách của bản luận văn do ĐHBK Hà Nội quy định, thời hạn nộp luận văn là 20 ngày kể từ ngày bảo vệ thành công luận văn.\n\nd) Không bị truy cứu trách nhiệm hình sự và không trong thời gian bị kỷ luật, đình chỉ học tập.\n\n2. Hạng tốt nghiệp thạc sĩ được xếp dựa trên điểm trung bình tích lũy toàn khóa tính cho toàn bộ các học phần đã học trong chương trình, kể cả luận văn thạc sĩ. Riêng các học phần được công nhận không đưa vào",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0,
+          "char_start": 0,
+          "char_end": 500
+        },
+        "score": 0.6247865210630648,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p26_c0",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 26,
+        "text": "22\n\nc) Đã nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu theo quy cách của bản luận văn do ĐHBK Hà Nội quy định, thời hạn nộp luận văn là 20 ngày kể từ ngày bảo vệ thành công luận văn.\n\nd) Không bị truy cứu trách nhiệm hình sự và không trong thời gian bị kỷ luật, đình chỉ học tập.\n\n2. Hạng tốt nghiệp thạc sĩ được xếp dựa trên điểm trung bình tích lũy toàn khóa tính cho toàn bộ các học phần đã học trong chương trình, kể cả luận văn thạc sĩ. Riêng các học phần được công nhận không đưa vào tính CPA để xếp hạng tốt nghiệp. CPA 2,0 - 2,49 2,5 - 3,19 3,2 - 3,59 3,6 - 4,0 Xếp loại Trung bình Khá Giỏi Xuất sắc",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 0
+        },
+        "score": 0.5239960706822514,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p25_c5",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 25,
+        "text": "được xét công nhận tốt nghiệp:\n\na) Luận văn đạt yêu cầu.\n\nb) Hoàn thành việc nộp quyển luận văn đã được chỉnh sửa theo kết luận của Hội đồng đánh giá luận văn. Công khai toàn văn quyển luận văn trên trang thông tin điện tử thuộc ĐHBK Hà Nội theo quy định trong thời gian ít nhất 30 ngày , trừ một số đề tài thuộc các lĩnh vực cần bảo mật thực hiện theo quy định của Nhà nước.",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương IV: Quy định đào tạo trình độ thạc sĩ",
+          "chunk_index": 5,
+          "char_start": 2250,
+          "char_end": 2626
+        },
+        "score": 0.3123892422923504,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[A_quy_che_dao_tao_dhbk_2025_p26_c0 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 26]\n22\n\nc) Đã nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu theo quy cách của bản luận văn do ĐHBK Hà Nội quy định, thời hạn nộp luận văn là 20 ngày kể từ ngày bảo vệ thành công luận văn.\n\nd) Không bị truy cứu trách nhiệm hình sự và không trong thời gian bị kỷ luật, đình chỉ học tập.\n\n2. Hạng tốt nghiệp thạc sĩ được xếp dựa trên điểm trung bình tích lũy toàn khóa tính cho toàn bộ các học phần đã học trong chương trình, kể cả luận văn thạc sĩ. Riêng các học phần được công nhận không đưa vào",
+    "context_ids": [
+      "A_quy_che_dao_tao_dhbk_2025_p26_c0"
+    ],
+    "context_chars": 679,
+    "elapsed_ms": 1.0666250018402934,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "Quy định về việc chuyển chương trình đào tạo tại Điều 17 được chính thức áp dụng từ thời điểm nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 34,
+        "evidence": "học kỳ 2 năm học 2024-2025"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_quy_che_dao_tao_dhbk_2025_p34_c2",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 34,
+        "text": "a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nb) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025.\n\nc) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nd) Khoản 1 Điều 24 (về điểm trung bình toàn khóa CTĐT kỹ sư) được áp dụng từ học kỳ 2 năm học 2024-2025.",
+        "metadata": {
+          "strategy": "B_or_C",
+          "chapter": "Chương VI: Tổ chức thực hiện",
+          "chunk_index": 2
+        },
+        "score": 0.44671050127167766,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p34_c3",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 34,
+        "text": "m 2023 của Giám đốc ĐHBK Hà Nội.\n\n2. Quy chế này được áp dụng từ học kỳ 1 năm học 2025-2026 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau:\n\na) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nb) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025.\n\nc) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nd) Kho",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương VI: Tổ chức thực hiện",
+          "chunk_index": 3,
+          "char_start": 1350,
+          "char_end": 1850
+        },
+        "score": 0.4393805622915875,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "A_quy_che_dao_tao_dhbk_2025_p17_c3",
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "source": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+        "page": 17,
+        "text": "cho phép. Các trường hợp này được xem xét chuyển nếu còn trong thời gian học tập theo quy định đối với hình thức vừa làm vừa học. Khoản này không áp dụng với sinh viên thuộc diện tự đề nghị xin thôi học.\n\n5. Kết quả học tập của các học phần đã tích lũy của sinh viên chuyển chương trình hoặc chuyển hình thức đào tạo sẽ được xem xét để bảo lưu và công nhận tương đương theo các học phần trong chương trình mới.\n\n6. Sinh viên từ trường khác muốn chuyển tới học tại ĐHBK Hà Nội phải đáp ứng điều kiện t",
+        "metadata": {
+          "strategy": "A",
+          "chapter": "Chương II: Quy định đào tạo trình độ đại học",
+          "chunk_index": 3,
+          "char_start": 1350,
+          "char_end": 1850
+        },
+        "score": 0.29756391703757273,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B_quy_che_dao_tao_dhbk_2025_p34_c2 | https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf | page 34]\na) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nb) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025.\n\nc) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022.\n\nd) Khoản 1 Điều 24 (về điểm trung bình toàn khóa CTĐT kỹ sư) được áp dụng từ học kỳ 2 năm học 2024-2025.",
+    "context_ids": [
+      "B_quy_che_dao_tao_dhbk_2025_p34_c2"
+    ],
+    "context_chars": 623,
+    "elapsed_ms": 0.8695829892531037,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

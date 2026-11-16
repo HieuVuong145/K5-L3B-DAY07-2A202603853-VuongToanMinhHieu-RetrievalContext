@@ -1,0 +1,16 @@
+{
+  "method": "dense",
+  "split": "test",
+  "total_cases": 10,
+  "answerable_cases": 7,
+  "provider_errors": 0,
+  "tool_use": "10/10 (100.0%)",
+  "hit1": "4/7 (57.1%)",
+  "hit3": "4/7 (57.1%)",
+  "context_evidence_rate": "2/7 (28.6%)",
+  "config": {
+    "max_searches": 3,
+    "top_k": 3,
+    "budget": 800
+  }
+}
