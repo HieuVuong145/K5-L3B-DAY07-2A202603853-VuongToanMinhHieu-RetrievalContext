@@ -1,0 +1,386 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Chương trình đào tạo tích hợp cử nhân - kỹ sư hoặc cử nhân - thạc sĩ tại ĐHBK Hà Nội có thời gian thiết kế là bao nhiêu năm và khối lượng bao nhiêu tín chỉ?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 6,
+        "evidence": "thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC"
+      }
+    ],
+    "expected_answer": "Thời gian thiết kế là 5,5 năm và khối lượng học tập 180 tín chỉ",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Một năm học tại Đại học Bách khoa Hà Nội được tổ chức gồm những học kỳ nào?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 7,
+        "evidence": "Một năm học bao gồm hai học kỳ chính và một học kỳ hè"
+      }
+    ],
+    "expected_answer": "Một năm học bao gồm hai học kỳ chính và một học kỳ hè",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Đối với hoạt động dạy học trên lớp, một tín chỉ yêu cầu thực hiện tối thiểu bao nhiêu giờ giảng hoặc bao nhiêu giờ thực hành?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 8,
+        "evidence": "tối thiểu 15 giờ giảng hoặc 30 giờ thực hành"
+      }
+    ],
+    "expected_answer": "Tối thiểu 15 giờ giảng hoặc 30 giờ thực hành, thí nghiệm, thảo luận",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Điểm học phần được quy đổi thành điểm chữ theo quy tắc nào và trường hợp nào bị tính là điểm F?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 9,
+        "evidence": "quy đổi thành điểm chữ theo quy tắc dưới đây, trừ trường hợp có một điểm thành phần là điểm liệt thì điểm học phần là điểm F"
+      }
+    ],
+    "expected_answer": "Quy đổi thành điểm chữ, trừ trường hợp có một điểm thành phần là điểm liệt thì điểm học phần là điểm F",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Người học có thể đề nghị phúc tra hoặc khiếu nại điểm thi trong thời hạn bao lâu kể từ khi điểm được cập nhật?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 10,
+        "evidence": "trong thời hạn 7 ngày kể từ khi điểm học phần được cập nhật vào tài khoản học tập của người học"
+      }
+    ],
+    "expected_answer": "Trong thời hạn 7 ngày kể từ khi điểm học phần được cập nhật vào tài khoản học tập",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Những đối tượng sinh viên đại học nào không được phép chuyển đến cơ sở đào tạo khác?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 11,
+        "evidence": "Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học không được chuyển cơ sở đào tạo"
+      }
+    ],
+    "expected_answer": "Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Sinh viên không thuộc diện cảnh báo học tập được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 12,
+        "evidence": "được đăng ký tối đa 24 TC và tối thiểu 12 TC trong học kỳ chính"
+      }
+    ],
+    "expected_answer": "Tối đa 24 tín chỉ và tối thiểu 12 tín chỉ trong học kỳ chính",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Sinh viên có điểm trung bình tích lũy (CPA) từ 3,6 đến 4,0 được xếp loại học lực gì?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 14,
+        "evidence": "GPA hoặc CPA < 1,0 1,0-1,99 2,0-2,49 2,5-3,19 3,2-3,59 3,6-4,0 Xếp loại Kém Yếu Trung bình Khá Giỏi Xuất sắc"
+      }
+    ],
+    "expected_answer": "Xếp loại Xuất sắc",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Đại học Bách khoa Hà Nội tổ chức xét tốt nghiệp đại học theo mấy đợt trong một năm và vào các mốc thời gian nào?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 15,
+        "evidence": "xét tốt nghiệp theo 03 đợt trong năm, cụ thể là cuối mỗi học kỳ chính và cuối học kỳ hè"
+      }
+    ],
+    "expected_answer": "Xét tốt nghiệp theo 03 đợt trong năm, cụ thể là cuối mỗi học kỳ chính và cuối học kỳ hè",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Khối lượng học phần phải học lại vượt quá bao nhiêu phần trăm thì hạng tốt nghiệp loại Giỏi trở lên của sinh viên bị giảm một mức?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 16,
+        "evidence": "Khối lượng của các học phần phải học lại vượt quá 5% của tổng số TC của các học phần được dùng tính điểm trung bình toàn khóa"
+      }
+    ],
+    "expected_answer": "Khối lượng học lại vượt quá 5% tổng số tín chỉ của các học phần tính điểm trung bình toàn khóa",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thời gian nghỉ học tạm thời tối đa cho phép đối với trường hợp nghỉ vì nhu cầu cá nhân khác là bao nhiêu học kỳ?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 16,
+        "evidence": "Thời gian nghỉ học tối đa cho phép là 04 học kỳ chính và được tính vào thời gian học chậm tiến độ"
+      }
+    ],
+    "expected_answer": "Thời gian nghỉ học tối đa cho phép là 04 học kỳ chính và tính vào thời gian học chậm tiến độ",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Sinh viên đại học được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 18,
+        "evidence": "xếp trình độ năm thứ hai của chương trình thứ nhất"
+      }
+    ],
+    "expected_answer": "Sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Sinh viên có số tín chỉ không đạt trong học kỳ lớn hơn bao nhiêu thì bị nâng một mức cảnh báo học tập?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 18,
+        "evidence": "Nâng một mức cảnh báo học tập đối với sinh viên có số TC không đạt trong học kỳ lớn hơn 8"
+      }
+    ],
+    "expected_answer": "Số tín chỉ không đạt trong học kỳ lớn hơn 8",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Sinh viên có số tín chỉ nợ đọng từ đầu khóa lớn hơn bao nhiêu thì bị áp dụng cảnh báo học tập mức 3?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 18,
+        "evidence": "Áp dụng cảnh báo học tập mức 3 đối với sinh viên có số TC nợ đọng từ đầu khóa lớn hơn 24"
+      }
+    ],
+    "expected_answer": "Số tín chỉ nợ đọng từ đầu khóa lớn hơn 24",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Trường hợp nào về cảnh báo học tập khiến sinh viên đại học bị áp dụng hình thức buộc thôi học?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 19,
+        "evidence": "Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp"
+      }
+    ],
+    "expected_answer": "Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Sinh viên CTĐT chuẩn đang bị hạn chế khối lượng học tập do cảnh báo mức 2 trở lên được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 19,
+        "evidence": "Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 TC và tối thiểu 8 TC"
+      }
+    ],
+    "expected_answer": "Được đăng ký tối đa 14 TC và tối thiểu 8 TC cho một học kỳ chính",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Trong quá trình học bậc cử nhân, học viên được đăng ký học trước tối đa bao nhiêu tín chỉ các học phần thuộc CTĐT kỹ sư?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 20,
+        "evidence": "được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT kỹ sư"
+      }
+    ],
+    "expected_answer": "Tối đa 15 tín chỉ",
+    "filter": {
+      "chapter": "Chương III"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Chương trình đào tạo trình độ cử nhân đối với người tốt nghiệp THPT theo hình thức chính quy có thời gian chuẩn và khối lượng tối thiểu là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 6,
+        "evidence": "Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ"
+      }
+    ],
+    "expected_answer": "Thời gian 4 năm và khối lượng tối thiểu 132 tín chỉ",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Thời gian chậm tiến độ đối với các chương trình cấp bằng cử nhân không được vượt quá bao nhiêu học kỳ chính?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 7,
+        "evidence": "thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân"
+      }
+    ],
+    "expected_answer": "Không vượt quá 5 học kỳ chính",
+    "filter": {
+      "chapter": "Chương I"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Sinh viên đủ điều kiện tốt nghiệp đại học được cấp bằng tốt nghiệp trong thời hạn bao lâu kể từ thời điểm đáp ứng đầy đủ điều kiện?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 15,
+        "evidence": "cấp bằng tốt nghiệp trong thời hạn 03 tháng"
+      }
+    ],
+    "expected_answer": "Trong thời hạn 03 tháng",
+    "filter": {
+      "chapter": "Chương II"
+    }
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "Học viên đào tạo thạc sĩ chính quy có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính và một năm học?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 23,
+        "evidence": "đăng ký tối đa 24 TC trong một học kỳ chính nhưng không vượt quá 45 TC trong một năm học"
+      }
+    ],
+    "expected_answer": "Tối đa 24 tín chỉ trong một học kỳ chính nhưng không vượt quá 45 tín chỉ trong một năm học",
+    "filter": {
+      "chapter": "Chương IV"
+    }
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "Học viên cao học thực hiện đăng ký đề tài luận văn thạc sĩ vào thời điểm nào của khóa học?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 24,
+        "evidence": "đăng ký đề tài luận văn trong học kỳ đầu của khóa học"
+      }
+    ],
+    "expected_answer": "Trong học kỳ đầu của khóa học",
+    "filter": {
+      "chapter": "Chương IV"
+    }
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "Thời hạn học viên thạc sĩ phải nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu là bao nhiêu ngày kể từ ngày bảo vệ thành công?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 26,
+        "evidence": "thời hạn nộp luận văn là 20 ngày kể từ ngày bảo vệ thành công luận văn"
+      }
+    ],
+    "expected_answer": "20 ngày kể từ ngày bảo vệ thành công luận văn",
+    "filter": {
+      "chapter": "Chương IV"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "Quy định về việc chuyển chương trình đào tạo tại Điều 17 được chính thức áp dụng từ thời điểm nào?",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_dhbk_2025",
+        "page": 34,
+        "evidence": "học kỳ 2 năm học 2024-2025"
+      }
+    ],
+    "expected_answer": "Áp dụng từ học kỳ 2 năm học 2024-2025",
+    "filter": {
+      "chapter": "Chương VI"
+    }
+  }
+]

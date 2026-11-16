@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Chương trình đào tạo tích hợp cử nhân - kỹ sư hoặc cử nhân - thạc sĩ tại ĐHBK Hà Nội có thời gian thiết kế là bao nhiêu năm và khối lượng bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Thời gian thiết kế là 5,5 năm và khối lượng học tập 180 tín chỉ"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Một năm học tại Đại học Bách khoa Hà Nội được tổ chức gồm những học kỳ nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Một năm học bao gồm hai học kỳ chính và một học kỳ hè"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Đối với hoạt động dạy học trên lớp, một tín chỉ yêu cầu thực hiện tối thiểu bao nhiêu giờ giảng hoặc bao nhiêu giờ thực hành?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tối thiểu 15 giờ giảng hoặc 30 giờ thực hành, thí nghiệm, thảo luận"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Điểm học phần được quy đổi thành điểm chữ theo quy tắc nào và trường hợp nào bị tính là điểm F?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Quy đổi thành điểm chữ, trừ trường hợp có một điểm thành phần là điểm liệt thì điểm học phần là điểm F"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Người học có thể đề nghị phúc tra hoặc khiếu nại điểm thi trong thời hạn bao lâu kể từ khi điểm được cập nhật?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong thời hạn 7 ngày kể từ khi điểm học phần được cập nhật vào tài khoản học tập"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Những đối tượng sinh viên đại học nào không được phép chuyển đến cơ sở đào tạo khác?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Sinh viên không thuộc diện cảnh báo học tập được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tối đa 24 tín chỉ và tối thiểu 12 tín chỉ trong học kỳ chính"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Sinh viên có điểm trung bình tích lũy (CPA) từ 3,6 đến 4,0 được xếp loại học lực gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Xếp loại Xuất sắc"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Đại học Bách khoa Hà Nội tổ chức xét tốt nghiệp đại học theo mấy đợt trong một năm và vào các mốc thời gian nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Xét tốt nghiệp theo 03 đợt trong năm, cụ thể là cuối mỗi học kỳ chính và cuối học kỳ hè"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Khối lượng học phần phải học lại vượt quá bao nhiêu phần trăm thì hạng tốt nghiệp loại Giỏi trở lên của sinh viên bị giảm một mức?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Khối lượng học lại vượt quá 5% tổng số tín chỉ của các học phần tính điểm trung bình toàn khóa"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thời gian nghỉ học tạm thời tối đa cho phép đối với trường hợp nghỉ vì nhu cầu cá nhân khác là bao nhiêu học kỳ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Thời gian nghỉ học tối đa cho phép là 04 học kỳ chính và tính vào thời gian học chậm tiến độ"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Sinh viên đại học được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Sinh viên có số tín chỉ không đạt trong học kỳ lớn hơn bao nhiêu thì bị nâng một mức cảnh báo học tập?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Số tín chỉ không đạt trong học kỳ lớn hơn 8"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Sinh viên có số tín chỉ nợ đọng từ đầu khóa lớn hơn bao nhiêu thì bị áp dụng cảnh báo học tập mức 3?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Số tín chỉ nợ đọng từ đầu khóa lớn hơn 24"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Trường hợp nào về cảnh báo học tập khiến sinh viên đại học bị áp dụng hình thức buộc thôi học?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Sinh viên CTĐT chuẩn đang bị hạn chế khối lượng học tập do cảnh báo mức 2 trở lên được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Được đăng ký tối đa 14 TC và tối thiểu 8 TC cho một học kỳ chính"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Trong quá trình học bậc cử nhân, học viên được đăng ký học trước tối đa bao nhiêu tín chỉ các học phần thuộc CTĐT kỹ sư?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tối đa 15 tín chỉ"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Chương trình đào tạo trình độ cử nhân đối với người tốt nghiệp THPT theo hình thức chính quy có thời gian chuẩn và khối lượng tối thiểu là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Thời gian 4 năm và khối lượng tối thiểu 132 tín chỉ"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Thời gian chậm tiến độ đối với các chương trình cấp bằng cử nhân không được vượt quá bao nhiêu học kỳ chính?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không vượt quá 5 học kỳ chính"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Sinh viên đủ điều kiện tốt nghiệp đại học được cấp bằng tốt nghiệp trong thời hạn bao lâu kể từ thời điểm đáp ứng đầy đủ điều kiện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong thời hạn 03 tháng"
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "Học viên đào tạo thạc sĩ chính quy có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính và một năm học?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tối đa 24 tín chỉ trong một học kỳ chính nhưng không vượt quá 45 tín chỉ trong một năm học"
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "Học viên cao học thực hiện đăng ký đề tài luận văn thạc sĩ vào thời điểm nào của khóa học?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong học kỳ đầu của khóa học"
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "Thời hạn học viên thạc sĩ phải nộp quyển luận văn tốt nghiệp cho thư viện Tạ Quang Bửu là bao nhiêu ngày kể từ ngày bảo vệ thành công?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "20 ngày kể từ ngày bảo vệ thành công luận văn"
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "Quy định về việc chuyển chương trình đào tạo tại Điều 17 được chính thức áp dụng từ thời điểm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Áp dụng từ học kỳ 2 năm học 2024-2025"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Mức thu học phí năm học 2024-2025 đối với sinh viên chính quy các ngành kỹ thuật của ĐHBK Hà Nội là bao nhiêu triệu đồng một tín chỉ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế đào tạo chỉ quy định nguyên tắc chung về đào tạo và kế hoạch học tập, không quy định về đơn giá học phí cụ thể (được ban hành tại Đề án tuyển sinh hoặc quy định tài chính riêng)."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Điều kiện và mức tiền thưởng để sinh viên ĐHBK Hà Nội được nhận Học bổng Khuyến khích học tập loại A là bao nhiêu tiền?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu quy chế đào tạo không chứa định mức tiền thưởng hay quy định chi tiết về học bổng khuyến khích học tập."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "Sinh viên chính quy muốn đăng ký lưu trú tại ký túc xá Bách khoa thì cần nộp hồ sơ ở phòng ban nào và thời gian tiếp nhận là khi nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế đào tạo không điều chỉnh công tác quản lý ký túc xá hay thủ tục lưu trú sinh viên."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Học phần Giáo dục thể chất có bắt buộc chuẩn đầu ra kỹ năng bơi lội cự ly 50m đối với toàn bộ sinh viên đại học không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế chỉ quy định sinh viên phải hoàn thành học phần Giáo dục thể chất để tốt nghiệp, không quy định chi tiết về chuẩn kỹ năng bơi lội cụ thể."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "Mức hỗ trợ chi phí mua bảo hiểm y tế bắt buộc cho sinh viên diện chính sách tại ĐHBK Hà Nội là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không chứa thông tin về bảo hiểm y tế hay tỷ lệ hỗ trợ kinh phí bảo hiểm cho sinh viên chính sách."
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "question": "Cổng đăng ký tín chỉ trực tuyến của nhà trường mở vào lúc mấy giờ sáng trong ngày đầu tiên của đợt đăng ký học phần?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế chỉ nêu việc đăng ký theo mốc thời gian của Khung kế hoạch năm học, không quy định giờ mở cổng cụ thể trong ngày."
+  }
+]
